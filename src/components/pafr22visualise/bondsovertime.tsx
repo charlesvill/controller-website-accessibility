@@ -136,5 +136,10 @@ export function BondsOverTime() {
     }
   }, []);
 
-  return <div ref={bondsovertimeref} id='bondschart4pafr'></div>;
+  return <div 
+    ref={bondsovertimeref} 
+    id='bondschart4pafr'
+
+
+  ></div>;
 }
