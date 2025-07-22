@@ -147,7 +147,7 @@ export function BondsOverTime() {
       <div
         ref={bondsovertimeref}
         id='bondschart4pafr'
-        aria-labelledby="bondsovertime-caption"
+        tabIndex={0}
       ></div>
     </figure>
   )
